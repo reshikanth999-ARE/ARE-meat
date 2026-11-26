@@ -34,6 +34,9 @@
             animation: fadeSlideIn 0.2s ease-out forwards;
         }
     </style>
+   <link rel="manifest" href="/ARE-meat/manifest.json">
+<meta name="theme-color" content="#b91c1c">
+    
 </head>
 <body class="min-h-full flex flex-col bg-stone-50 text-stone-800 selection:bg-emerald-100 selection:text-emerald-950">
 
@@ -2527,6 +2530,12 @@
             });
         })();
     </script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/ARE-meat/sw.js');
+  }
+    </script>
+    
 </body>
 </html>
 ```
