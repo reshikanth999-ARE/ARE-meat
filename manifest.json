@@ -1,0 +1,21 @@
+{
+  "name": "ARE Meat",
+  "short_name": "ARE Meat",
+  "start_url": "/ARE-meat/",
+  "scope": "/ARE-meat/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b91c1c",
+  "icons": [
+    {
+      "src": "/ARE-meat/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/ARE-meat/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
